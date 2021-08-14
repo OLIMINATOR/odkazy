@@ -45,6 +45,11 @@ section {
           align-items: center;
 }
 
+section ul {
+  margin: 0;
+  padding: 0;
+}
+
 section ul li {
   margin-bottom: 3.5em;
   list-style-type: none;
@@ -59,7 +64,7 @@ section ul li .btn-yt {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #db0000;
-  padding: 1.2em 7em;
+  padding: 1.2em 6.5em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -74,7 +79,7 @@ section ul li .btn-tiktok {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #8a257e;
-  padding: 1.2em 7em;
+  padding: 1.2em 6em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -89,7 +94,7 @@ section ul li .btn-ig {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #ad0046;
-  padding: 1.2em 7em;
+  padding: 1.2em 5.7em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -104,7 +109,7 @@ section ul li .btn-github {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #171717;
-  padding: 1.2em 7em;
+  padding: 1.2em 6.7em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -119,7 +124,7 @@ section ul li .btn-discord {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #4f53ff;
-  padding: 1.2em 7em;
+  padding: 1.2em 6.5em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -134,7 +139,7 @@ section ul li .btn-namemc {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #45293f;
-  padding: 1.2em 7em;
+  padding: 1.2em 6.8em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -149,7 +154,7 @@ section ul li .btn-mcserver {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #6bcf00;
-  padding: 1.2em 7em;
+  padding: 1.2em 5.2em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -164,7 +169,7 @@ section ul li .btn-mcplanet {
   font-family: "Rubik", sans-serif;
   color: white;
   background-color: #006b91;
-  padding: 1.2em 7em;
+  padding: 1.2em 6.5em;
   border-radius: 0.8em;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -188,41 +193,6 @@ section ul li .btn-more:hover {
   color: #1c4085;
   background: #d4e3ff;
   border-radius: 2.9em;
-}
-
-footer {
-  padding: 2.2em;
-  background-color: #000508;
-}
-
-.footer-text-main {
-  color: #525252;
-  font-family: "Ubuntu", sans-serif;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  margin-top: 1em;
-}
-
-.footer-odkazy {
-  color: gray;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  list-style-type: none;
-  font-size: 0.7em;
-  text-transform: uppercase;
-}
-
-.footer-odkazy li {
-  display: inline-block;
-}
-
-.footer-odkazy-text {
-  font-family: "Ubuntu", sans-serif;
-  text-decoration: underline;
-  color: #333333;
-  display: inline-block;
 }
 
 .btn-twitch {
@@ -268,5 +238,41 @@ footer {
 .btn-twitter:hover {
   background: #0f87d1;
   border-radius: 0.5em;
+}
+
+footer {
+  margin-top: 3em;
+  padding: 2.2em;
+  background-color: #000508;
+}
+
+.footer-text-main {
+  color: #525252;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.footer-odkazy {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.footer-odkazy li {
+  display: inline-block;
+}
+
+.footer-odkazy-text {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: underline;
+  color: #333333;
+  display: inline-block;
 }
 /*# sourceMappingURL=css.css.map */
