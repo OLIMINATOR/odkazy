@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000e14;
+  background-image: linear-gradient(62deg, #000e14 0%, #001929 100%);
+  background-repeat: no-repeat;
+}
+
+header {
+  // LOGO A TEXT
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  h1 {
+    color: white;
+    font-size: 2em;
+    font-family: "Rubik", sans-serif;
+    text-shadow: 0 0 3px #fff;
+  }
+  img {
+    height: 8em;
+  }
+}
+
+section {
+  // TLACITKA
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ul {
+    li {
+      margin-bottom: 3.5em;
+      list-style-type: none;
+      text-align: center;
+      a {
+        text-decoration: none;
+      }
+      .btn-yt {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #db0000;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #a60f0f;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-tiktok {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #8a257e;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #5e1956;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-ig {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #ad0046;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #91003b;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-github {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #171717;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #121212;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-discord {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #4f53ff;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #3c40fa;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-namemc {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #45293f;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #2b1a28;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-mcserver {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #6bcf00;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #428000;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-mcplanet {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #006b91;
+        padding: 1.2em 7em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #014c66;
+          border-radius: 0.5em;
+        }
+      }
+      .btn-more {
+        font-family: "Rubik", sans-serif;
+        color: #5786de;
+        padding: 0.8em 2em;
+        border-radius: 0.8em;
+        transition: 0.6s;
+        &:hover {
+          color: #1c4085;
+          background: #d4e3ff;
+          border-radius: 2.9em;
+        }
+      }
+    }
+  }
+}
+footer {
+  padding: 2.2em;
+  background-color: #000508;
+}
+
+.footer-text-main {
+  color: #525252;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.footer-odkazy {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.footer-odkazy li {
+  display: inline-block;
+}
+
+.footer-odkazy-text {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: underline;
+  color: #333333;
+  display: inline-block;
+}
+// VIAC PAGE BUTTONS
+.btn-twitch {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #5200a3;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  transition: 0.3s;
+  &:hover {
+    background: #47008c;
+    border-radius: 0.5em;
+  }
+}
+.btn-replit {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #8a5a6e;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  transition: 0.3s;
+  &:hover {
+    background: #5e3d4b;
+    border-radius: 0.5em;
+  }
+}
+.btn-twitter {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #1da1f2;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  transition: 0.3s;
+  &:hover {
+    background: #0f87d1;
+    border-radius: 0.5em;
+  }
+}

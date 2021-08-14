@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000e14;
+  background-image: linear-gradient(62deg, #000e14 0%, #001929 100%);
+  background-repeat: no-repeat;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  color: white;
+  font-size: 2em;
+  font-family: "Rubik", sans-serif;
+  text-shadow: 0 0 3px #fff;
+}
+
+header img {
+  height: 8em;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section ul li {
+  margin-bottom: 3.5em;
+  list-style-type: none;
+  text-align: center;
+}
+
+section ul li a {
+  text-decoration: none;
+}
+
+section ul li .btn-yt {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #db0000;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-yt:hover {
+  background: #a60f0f;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-tiktok {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #8a257e;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-tiktok:hover {
+  background: #5e1956;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-ig {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #ad0046;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-ig:hover {
+  background: #91003b;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-github {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #171717;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-github:hover {
+  background: #121212;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-discord {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #4f53ff;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-discord:hover {
+  background: #3c40fa;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-namemc {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #45293f;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-namemc:hover {
+  background: #2b1a28;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-mcserver {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #6bcf00;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-mcserver:hover {
+  background: #428000;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-mcplanet {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #006b91;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-mcplanet:hover {
+  background: #014c66;
+  border-radius: 0.5em;
+}
+
+section ul li .btn-more {
+  font-family: "Rubik", sans-serif;
+  color: #5786de;
+  padding: 0.8em 2em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+section ul li .btn-more:hover {
+  color: #1c4085;
+  background: #d4e3ff;
+  border-radius: 2.9em;
+}
+
+footer {
+  padding: 2.2em;
+  background-color: #000508;
+}
+
+.footer-text-main {
+  color: #525252;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 1em;
+}
+
+.footer-odkazy {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  list-style-type: none;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+.footer-odkazy li {
+  display: inline-block;
+}
+
+.footer-odkazy-text {
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: underline;
+  color: #333333;
+  display: inline-block;
+}
+
+.btn-twitch {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #5200a3;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-twitch:hover {
+  background: #47008c;
+  border-radius: 0.5em;
+}
+
+.btn-replit {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #8a5a6e;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-replit:hover {
+  background: #5e3d4b;
+  border-radius: 0.5em;
+}
+
+.btn-twitter {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #1da1f2;
+  padding: 1.2em 7em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-twitter:hover {
+  background: #0f87d1;
+  border-radius: 0.5em;
+}
+/*# sourceMappingURL=css.css.map */
