@@ -135,6 +135,18 @@ section {
           border-radius: 0.5em;
         }
       }
+      .btn-laby {
+        font-family: "Rubik", sans-serif;
+        color: white;
+        background-color: #002a6e;
+        padding: 1.2em 6.5em;
+        border-radius: 0.8em;
+        transition: 0.3s;
+        &:hover {
+          background: #00122e;
+          border-radius: 0.5em;
+        }
+      }
       .btn-more {
         font-family: "Rubik", sans-serif;
         color: #5786de;

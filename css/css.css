@@ -180,6 +180,21 @@ section ul li .btn-mcplanet:hover {
   border-radius: 0.5em;
 }
 
+section ul li .btn-laby {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  background-color: #002a6e;
+  padding: 1.2em 6.5em;
+  border-radius: 0.8em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+section ul li .btn-laby:hover {
+  background: #00122e;
+  border-radius: 0.5em;
+}
+
 section ul li .btn-more {
   font-family: "Rubik", sans-serif;
   color: #5786de;
