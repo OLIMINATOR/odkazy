@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Picture from '../components/Picture.astro';
+import Username from '../components/Username.astro';
+import Item from '../components/Item.astro';
+---
+
+<Layout>
+	<main class="mx-auto w-max mb-12">
+		<header class="mt-12 flex flex-col items-center">
+			<Picture />
+			<Username />
+		</header>
+		<section class="mt-6 flex w-80 flex-col gap-y-6">
+			<Item />
+		</section>
+	</main>
+</Layout>
