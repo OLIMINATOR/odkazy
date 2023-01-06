@@ -1,0 +1,31 @@
+---
+import { SITE, OPEN_GRAPH } from '../config';
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!-- Primary Meta Tags -->
+<title>{SITE.title}</title>
+<meta name="title" content={SITE.title} />
+<meta name="description" content={SITE.title} />
+<link rel="canonical" href={canonicalUrl} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={SITE.url} />
+<meta property="og:site_name" content={SITE.title} />
+<meta property="og:title" content={SITE.title} />
+<meta property="og:description" content={SITE.description} />
+<meta property="og:image" content={OPEN_GRAPH.image.src} />
+<meta property="og:image:alt" content={OPEN_GRAPH.image.alt} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content={OPEN_GRAPH.twitter} />
+<meta property="twitter:url" content={SITE.url} />
+<meta property="twitter:title" content={SITE.title} />
+<meta property="twitter:description" content={SITE.description} />
+<meta property="twitter:image" content={OPEN_GRAPH.image.src} />
+<meta name="twitter:image:alt" content={OPEN_GRAPH.image.alt} />
+
+<meta name="theme-color" content={SITE.themeColor} />
