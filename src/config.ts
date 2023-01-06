@@ -7,7 +7,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
 	image: {
-		src: '../assets/images/og-image.png',
+		src: './src/assets/images/og-image.png',
 		alt: 'Odkazy text s tlačítkami',
 	},
 	twitter: 'oliminator34',
