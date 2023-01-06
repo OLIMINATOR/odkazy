@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import vercel from '@astrojs/vercel/static';
 import compress from 'astro-compress';
+import robotsTxt from 'astro-robots-txt';
 
 import { SITE } from './src/config';
 
@@ -24,8 +25,14 @@ export default defineConfig({
 			img: false,
 			js: true,
 			svg: false,
-
-			logger: 1,
+		}),
+		robotsTxt({
+			policy: [
+				{
+					userAgent: '*',
+				},
+			],
+			sitemap: true,
 		}),
 	],
 	adapter: vercel(),
