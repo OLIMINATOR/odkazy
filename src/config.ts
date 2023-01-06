@@ -16,22 +16,37 @@ export const OPEN_GRAPH = {
 export const BUTTONS = [
 	{
 		name: 'YouTube',
-		background: 'youtube',
+		background: 'bg-youtube hover:bg-youtube/80',
 		href: '/',
 	},
 	{
 		name: 'Instagram',
-		background: 'twitch',
+		background: 'bg-instagram hover:bg-instagram/80',
 		href: '/',
 	},
 	{
-		name: 'Instagram',
-		background: 'twitch',
+		name: 'GitHub',
+		background: 'bg-github hover:bg-github/80',
 		href: '/',
 	},
 	{
-		name: 'Instagram',
-		background: 'twitch',
+		name: 'Discord',
+		background: 'bg-discord hover:bg-discord/80',
+		href: '/',
+	},
+	{
+		name: 'Tiwtch',
+		background: 'bg-twitch hover:bg-twitch/80',
+		href: '/',
+	},
+	{
+		name: 'Spotify',
+		background: 'bg-spotify hover:bg-spotify/80',
+		href: '/',
+	},
+	{
+		name: 'Twitter',
+		background: 'bg-twitter hover:bg-twitter/80',
 		href: '/',
 	},
 ];
