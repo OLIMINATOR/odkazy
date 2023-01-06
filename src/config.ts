@@ -2,7 +2,7 @@ export const SITE = {
 	title: 'Oliminator Odkazy',
 	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat!',
 	url: 'https://odkazy.oliminator.net',
-	themeColor: '#FF8A00',
+	themeColor: '#f9f9f1',
 };
 
 export const OPEN_GRAPH = {
