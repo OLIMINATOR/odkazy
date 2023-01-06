@@ -1,14 +1,11 @@
 ---
 import { SITE, OPEN_GRAPH } from '../config';
-
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!-- Primary Meta Tags -->
 <title>{SITE.title}</title>
 <meta name="title" content={SITE.title} />
 <meta name="description" content={SITE.title} />
-<link rel="canonical" href={canonicalUrl} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
