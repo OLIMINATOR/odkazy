@@ -61,9 +61,11 @@ module.exports = {
 				background: '#F9F9F1',
 				blue: '#44C3EC',
 			},
+			/*
 			fontFamily: {
 				default: ['Outfit', 'sans-serif'],
 			},
+			*/
 			backgroundImage: {
 				primaryDotted: 'radial-gradient(#E6E6D1 1px, #F9F9F1 1px)',
 			},
