@@ -15,39 +15,35 @@ export const OPEN_GRAPH = {
 
 export const BUTTONS = [
 	{
+		name: 'Môj Minecraft Server',
+		background: 'bg-lendmark hover:bg-lendmark/80',
+		href: 'https://go.oliminator.net/lendmark',
+	},
+	{
+		name: 'TikTok',
+		background: 'bg-tiktok hover:bg-tiktok/80',
+		href: 'https://go.oliminator.net/titok',
+	},
+	{
 		name: 'YouTube',
 		background: 'bg-youtube hover:bg-youtube/80',
-		href: '/',
+		href: 'https://go.oliminator.net/youtube',
 	},
-	/*
+
 	{
 		name: 'Instagram',
 		background: 'bg-instagram hover:bg-instagram/80',
-		href: '/',
+		href: 'https://go.oliminator.net/instagram',
 	},
 	{
 		name: 'GitHub',
 		background: 'bg-github hover:bg-github/80',
-		href: '/',
+		href: 'https://go.oliminator.net/github',
 	},
 	{
 		name: 'Discord',
 		background: 'bg-discord hover:bg-discord/80',
-		href: '/',
+		href: 'https://discord.lendmark.sk/',
 	},
-	{
-		name: 'Tiwtch',
-		background: 'bg-twitch hover:bg-twitch/80',
-		href: '/',
-	},
-	{
-		name: 'Spotify',
-		background: 'bg-spotify hover:bg-spotify/80',
-		href: '/',
-	},
-	{
-		name: 'Twitter',
-		background: 'bg-twitter hover:bg-twitter/80',
-		href: '/',
-	},*/
+	,
 ];
