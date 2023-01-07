@@ -7,7 +7,7 @@ export const SITE = {
 
 export const OPEN_GRAPH = {
 	image: {
-		src: './src/assets/images/og-image.png',
+		src: '../src/assets/images/og-image.png',
 		alt: 'Odkazy text s tlačítkami',
 	},
 	twitter: 'oliminator34',
@@ -19,6 +19,7 @@ export const BUTTONS = [
 		background: 'bg-youtube hover:bg-youtube/80',
 		href: '/',
 	},
+	/*
 	{
 		name: 'Instagram',
 		background: 'bg-instagram hover:bg-instagram/80',
@@ -48,5 +49,5 @@ export const BUTTONS = [
 		name: 'Twitter',
 		background: 'bg-twitter hover:bg-twitter/80',
 		href: '/',
-	},
+	},*/
 ];

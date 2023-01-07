@@ -1,5 +1,17 @@
 ---
+import { getImage } from '@astrojs/image';
 import { SITE, OPEN_GRAPH } from '../config';
+
+const defaultImage = OPEN_GRAPH.image.src
+	? (
+			await getImage({
+				src: OPEN_GRAPH.image.src,
+				alt: OPEN_GRAPH.image.alt,
+				width: 640,
+				height: 320,
+			})
+	  ).src
+	: '';
 ---
 
 <!-- Primary Meta Tags -->
@@ -13,7 +25,7 @@ import { SITE, OPEN_GRAPH } from '../config';
 <meta property="og:site_name" content={SITE.title} />
 <meta property="og:title" content={SITE.title} />
 <meta property="og:description" content={SITE.description} />
-<meta property="og:image" content={OPEN_GRAPH.image.src} />
+<meta property="og:image" content={defaultImage} />
 <meta property="og:image:alt" content={OPEN_GRAPH.image.alt} />
 
 <!-- Twitter -->
@@ -22,7 +34,7 @@ import { SITE, OPEN_GRAPH } from '../config';
 <meta property="twitter:url" content={SITE.url} />
 <meta property="twitter:title" content={SITE.title} />
 <meta property="twitter:description" content={SITE.description} />
-<meta property="twitter:image" content={OPEN_GRAPH.image.src} />
+<meta property="twitter:image" content={defaultImage} />
 <meta name="twitter:image:alt" content={OPEN_GRAPH.image.alt} />
 
 <meta name="theme-color" content={SITE.themeColor} />
