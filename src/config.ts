@@ -28,7 +28,7 @@ export const BUTTONS = [
 export const SITE = {
 	title: 'XAP3X_ links',
 	description: 'Website to view links',
-	url: 'https://links.xap3x.gq',
+	url: 'https://xap3xontop.github.io',
 	themeColor: "#fbc119",
     schema: {
     	"@context": "https://schema.org/",
