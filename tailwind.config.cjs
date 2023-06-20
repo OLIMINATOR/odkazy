@@ -56,6 +56,8 @@ module.exports = {
 				wikipedia: '#000000',
 				youtube: '#ff0000',
 				lendmark: '#5e8949',
+                // Custom
+                spigotmc: '#d6872e',
 				transparent: 'transparent',
 				current: 'currentColor',
 				black: '#000',
@@ -69,7 +71,7 @@ module.exports = {
 			},
 			*/
 			backgroundImage: {
-				primaryDotted: 'radial-gradient(#E6E6D1 1px, #F9F9F1 1px)',
+				primaryDotted: 'radial-gradient(#E6E6D1 1px, #999999 1px)',
 			},
 			backgroundSize: {
 				primaryDottedSize: '15px 15px',
