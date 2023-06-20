@@ -1,49 +1,48 @@
-export const SITE = {
-	title: 'Oliminator Odkazy',
-	description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, placeat!',
-	url: 'https://odkazy.oliminator.net',
-	themeColor: '#f9f9f1',
-};
-
 export const OPEN_GRAPH = {
 	image: {
 		src: 'og_image.png',
-		alt: 'Odkazy text s tlačítkami',
+		alt: 'Just links',
 	},
-	twitter: 'oliminator34',
+	twitter: 'xap3x',
 };
 
-export const BUTTONS = [
-	{
-		name: 'Môj Minecraft Server',
-		background: 'bg-lendmark hover:bg-lendmark/80',
-		href: 'https://go.oliminator.net/lendmark',
-	},
-	{
-		name: 'TikTok',
-		background: 'bg-tiktok hover:bg-tiktok/80',
-		href: 'https://go.oliminator.net/titok',
-	},
-	{
-		name: 'YouTube',
-		background: 'bg-youtube hover:bg-youtube/80',
-		href: 'https://go.oliminator.net/youtube',
-	},
 
-	{
-		name: 'Instagram',
-		background: 'bg-instagram hover:bg-instagram/80',
-		href: 'https://go.oliminator.net/instagram',
-	},
-	{
-		name: 'GitHub',
-		background: 'bg-github hover:bg-github/80',
-		href: 'https://go.oliminator.net/github',
-	},
-	{
-		name: 'Discord',
-		background: 'bg-discord hover:bg-discord/80',
-		href: 'https://discord.lendmark.sk/',
-	},
-	,
+export const BUTTONS = [
+  {
+    name: "GitHub",
+    background: "bg-github hover:bg-github/80",
+    href: "https://github.com/XAP3xOnTop",
+  },
+  {
+    name: "Instagram",
+    background: "bg-instagram hover:bg-instagram/80",
+    href: "https://instagram.com/xap.3x",
+  },
+  {
+    name: "SpigotMC",
+    background: "bg-spigotmc hover:bg-spigotmc/80",
+    href: "https://www.spigotmc.org/members/xap3x.1650610/",
+  }
 ];
+
+export const SITE = {
+	title: 'XAP3X_ links',
+	description: 'Website to view links',
+	url: 'https://links.xap3x.gq',
+	themeColor: "#fbc119",
+    schema: {
+    	"@context": "https://schema.org/",
+        "@type": "ItemList",
+        name: "Redirects",
+        itemListElement: BUTTONS.map((button, i) => ({
+        	"@type": "ListItem",
+        	position: i + 1,
+        	name: button.name,
+        	url: button.href,
+        })),
+    },
+    originalAuthor: {
+        name: "OLIMINATOR",
+        url: "https://github.com/OLIMINATOR",
+      },
+};
